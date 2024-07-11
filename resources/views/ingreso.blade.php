@@ -4,7 +4,7 @@
 @section('content')
 <section>
     <form action="{{ route('ingreso.store') }}" method="POST"
-            class="flex flex-col m-auto w-1/3 [&>label]:py-2 [&>input]:rounded-md mt-10">
+            class="flex flex-col m-auto w-1/3 [&>label]:py-2 [&>input]:rounded-md mt-10 [&>input]:p-2">
         @csrf
         <label for="nombre" class="form-label">Nombre</label>
         <input type="text" class="border" id="nombre" name="nombre">
