@@ -38,6 +38,12 @@
             </strong>
             {{ $alumno->condicion }}
         </li>
+        <li>
+            <strong>
+                Fecha de creación:
+            </strong>
+            {{ $alumno->created_at }}
+        </li>
     </ul>
 </section>
 @endsection
